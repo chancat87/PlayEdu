@@ -10,5 +10,29 @@
             <url>https://maven.aliyun.com/repository/public</url>
             <mirrorOf>central</mirrorOf>
         </mirror>
+        <mirror>
+            <id>aliyun-spring</id>
+            <name>Aliyun Spring Mirror</name>
+            <url>https://maven.aliyun.com/repository/spring</url>
+            <mirrorOf>spring,spring-milestones,spring-snapshots</mirrorOf>
+        </mirror>
+        <mirror>
+            <id>aliyun-spring-plugin</id>
+            <name>Aliyun Spring Plugin Mirror</name>
+            <url>https://maven.aliyun.com/repository/spring-plugin</url>
+            <mirrorOf>spring-plugin</mirrorOf>
+        </mirror>
+        <mirror>
+            <id>aliyun-google</id>
+            <name>Aliyun Google Mirror</name>
+            <url>https://maven.aliyun.com/repository/google</url>
+            <mirrorOf>google</mirrorOf>
+        </mirror>
+        <mirror>
+            <id>aliyun-gradle-plugin</id>
+            <name>Aliyun Gradle Plugin Mirror</name>
+            <url>https://maven.aliyun.com/repository/gradle-plugin</url>
+            <mirrorOf>gradle-plugin</mirrorOf>
+        </mirror>
     </mirrors>
 </settings>
