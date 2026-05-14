@@ -1,3 +1,5 @@
+<p align="center"><a href="https://www.sslbear.com?from=meedu">SSLBear - 云服务域名证书守护者|7x24小时监护让域名证书永不过期</a></p>
+
 <p align="center">
 <img src="https://meedu.cloud.oss.meedu.vip/playedu/%E5%A4%B4%E5%9B%BE.jpg"/>
 </p>
