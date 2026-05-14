@@ -13,7 +13,9 @@ volumes:
 
 services:
   playedu:
-    image: registry.cn-hangzhou.aliyuncs.com/playedu/light:2.0
+    build:
+      context: .
+      dockerfile: Dockerfile
     restart: always
     environment:
       - DB_HOST=${PLAYEDU_DB_HOST:-mysql}
